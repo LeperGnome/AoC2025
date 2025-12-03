@@ -1,0 +1,5 @@
+UseTab: Always
+# Set the width of a tab character to 4 spaces
+TabWidth: 4
+# Set the number of spaces used for indentation (must match TabWidth when using tabs for all indentation)
+IndentWidth: 4
