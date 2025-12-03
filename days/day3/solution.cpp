@@ -27,7 +27,7 @@ long getMaxJolts(std::string bank) {
 		size_t mx_idx = 0;
 
 		for (size_t idx = 0; idx < bank.length() - p; idx++) {
-			int num = std::atoi(std::string{bank[idx]}.c_str());
+			int num = bank[idx] - '0';
 			if (num > mx && (idx > prev_idx || p == pow)) {
 				mx = num;
 				mx_idx = idx;
